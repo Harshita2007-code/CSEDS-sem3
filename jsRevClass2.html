@@ -16,8 +16,14 @@
     <button onclick="runCode10()">Run Code</button>
     <p id="result10"></p>
 
+    //REMOVE ITEMS ON CLICK
+    <ul id="taskList">
+        <li>Sample Task 1</li>
+        <li>Sample Task 2</li>
+    </ul>
 
     <script> 
+        /*
         <h1>JAVA SCRIPT MODULES - CLASS 2</h1>
 
         //Literal Examples    
@@ -53,7 +59,13 @@
             }
             let student1 = new Student("Karan", 78); 
             document.getElementById("result10").innerText = student1.showResult();     
-            }  
+        }
+        */
+        document.getElementById("taskList").addEventListener("click", (e) => {
+            if (e.target.tagName === "LI") {
+                e.target.remove();
+            }
+        });
     </script> 
 </body>
 </html>
