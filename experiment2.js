@@ -39,7 +39,7 @@ console.log('File deleted!');
 
 
 
-
+/*
 //START -> END -> NEXT TRICK -> MACRO -> MICRO
 console.log("1: Start (sync)");
 
@@ -60,7 +60,7 @@ Promise.resolve().then(() => {
 });
 
 
-/*
+
 const fs = require("fs");
 
 console.log("1: Start (sync)");
