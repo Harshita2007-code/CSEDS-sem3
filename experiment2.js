@@ -1,41 +1,34 @@
 const fs = require('fs');
-/*
+
 // CREATE
-fs.writeFile('example.txt', 'Heyyy!! My name is Harshita Bhardwaj.Currenlty completing my undergraduate degree in engineering from ABES Engineering College.', (err) => {
+fs.writeFile('example.txt', 'Heyyy!! My name is Harshita Bhardwaj.', (err) => {
     if (err) throw err;
     console.log('File created!');
 
     // READ
-    fs.readFile('example.txt', 'utf8', (err, data) => {
-        if (err) throw err;
-        console.log('File content:', data);
-    });
+fs.readFile('example.txt', 'utf8', (err, data) => {
+    if (err) throw err;
+    console.log('File content:', data);
 });
-*/
 
-/*
 // UPDATE (overwrite)
 fs.writeFile('example.txt', 'This is the updated content.', (err) => {
 if (err) throw err;
 console.log('File overwritten (updated)!');
 });
-*/
 
-/*
 // UPDATE (append)
 fs.appendFile('example.txt', '\nThis line was added.', (err) => {
 if (err) throw err;
 console.log('File updated (appended)!');
 });
-*/
 
-/*
 // DELETE
 fs.unlink('example.txt', (err) => {
 if (err) throw err;
 console.log('File deleted!');
 });
-*/
+});
 
 
 
